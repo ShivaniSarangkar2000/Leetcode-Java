@@ -5,10 +5,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0001-two-sum) |
+| [0217-contains-duplicate](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0217-contains-duplicate) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0001-two-sum) |
+| [0217-contains-duplicate](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0217-contains-duplicate) |
 ## String
 |  |
 | ------- |
@@ -17,4 +19,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0020-valid-parentheses) |
+## Sorting
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0217-contains-duplicate) |
 <!---LeetCode Topics End-->
