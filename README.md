@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0020-valid-parentheses) |
+| [0125-valid-palindrome](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0125-valid-palindrome) |
 ## Stack
 |  |
 | ------- |
@@ -27,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0125-valid-palindrome](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 ## Binary Search
 |  |
