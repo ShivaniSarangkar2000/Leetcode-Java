@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0001-two-sum) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0217-contains-duplicate](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0217-contains-duplicate) |
 | [0283-move-zeroes](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0283-move-zeroes) |
@@ -30,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0125-valid-palindrome](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0283-move-zeroes](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0283-move-zeroes) |
