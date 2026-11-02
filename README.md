@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0217-contains-duplicate](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0217-contains-duplicate) |
 | [0283-move-zeroes](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0283-move-zeroes) |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 ## Hash Table
 |  |
 | ------- |
@@ -31,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0217-contains-duplicate](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0242-valid-anagram) |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 ## Two Pointers
 |  |
 | ------- |
@@ -53,4 +55,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0069-sqrtx](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0069-sqrtx) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 <!---LeetCode Topics End-->
