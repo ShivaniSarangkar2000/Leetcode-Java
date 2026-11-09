@@ -9,9 +9,9 @@ class Solution {
             if(i>0 && nums[i] == nums[i-1]) continue;
 
             //min sum too big , no later i can work
-            if((long) nums[i] + nums[i+1] + nums[i+2] + nums[i+3] > target) break;
+           // if((long) nums[i] + nums[i+1] + nums[i+2] + nums[i+3] > target) break;
             //max sum too small, try for next iteration i, skip this iteration
-            if((long) nums[i] + nums[n-3] + nums[n-2] + nums[n-1] < target) continue;
+           // if((long) nums[i] + nums[n-3] + nums[n-2] + nums[n-1] < target) continue;
 
             //j loop inside i
             for(int j=i+1; j<n-2; j++){
@@ -19,9 +19,9 @@ class Solution {
                 if(j>i+1  && nums[j] == nums[j-1]) continue;
 
                // Same pruning checks, now with i and j fixed
-            if((long) nums[i] + nums[j] + nums[j+1] + nums[j+2] > target) break;
+            //if((long) nums[i] + nums[j] + nums[j+1] + nums[j+2] > target) break;
             
-            if((long) nums[i] + nums[j] + nums[n-2] + nums[n-1] < target) continue;
+           // if((long) nums[i] + nums[j] + nums[n-2] + nums[n-1] < target) continue;
 
             // // Two pointers find the remaining two numbers
                 int l = j + 1, r = n - 1;
