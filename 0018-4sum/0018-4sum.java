@@ -1,13 +1,14 @@
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
+        
+        List<List<Integer>> res = new ArrayList<>();
         Arrays.sort(nums);
         int n = nums.length;
-        List<List<Integer>> res = new ArrayList<>();
         for(int i=0; i<n-3; i++){
             //skip duplicate values for first fixed number
             if(i>0 && nums[i] == nums[i-1]) continue;
 
-            //min sum too big , no later i can work so skip for loop
+            //min sum too big , no later i can work
             if((long) nums[i] + nums[i+1] + nums[i+2] + nums[i+3] > target) break;
             //max sum too small, try for next iteration i, skip this iteration
             if((long) nums[i] + nums[n-3] + nums[n-2] + nums[n-1] < target) continue;
@@ -41,7 +42,7 @@ class Solution {
                         r--;   // need a smaller sum
                     }//else
 
-                    
+
                 }//while loop
 
             }//j for loop , inner
