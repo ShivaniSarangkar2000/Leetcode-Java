@@ -39,7 +39,9 @@ class Solution {
                         l++;   // need a bigger sum
                     } else {
                         r--;   // need a smaller sum
-                    }
+                    }//else
+
+                    
                 }//while loop
 
             }//j for loop , inner
