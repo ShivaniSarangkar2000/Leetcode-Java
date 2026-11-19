@@ -23,7 +23,7 @@ class Solution {
        // Arrays.fill(dp,-1); //if(dp[n] != -1)
         return fibRec(n,dp);*/
 
-        //Bottom approach
+        /*Bottom approach
         if(n==0)
             return 0;
 
@@ -33,7 +33,21 @@ class Solution {
         for(int i=2; i<=n; i++){
             dp[i] = dp[i-1] + dp[i-2];
     }
-        return dp[n];
+        return dp[n]; */
+
+        //optimized space
+        if(n == 0){
+            return 0;
+        }
+        int prev1 = 0;
+        int prev2 = 1;
+        int current;
+        for(int i=2; i<=n; i++){//4
+            current = prev1 + prev2; // 0 1 1 2 3 
+            prev1 = prev2; //prev1 = 1
+            prev2 = current; //prev2 = 2
+        }
+        return prev2;
 
 
 
