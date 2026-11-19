@@ -16,15 +16,23 @@ class Solution {
     
     public int climbStairs(int n) {
 
-        //int [] dp = new int[n+1];
+      
         //Arrays.fill(dp, -1);
         //return helperRec(n,dp);
 
-         if (n == 0 || n ==1  || n==2) {
+          if (n == 0 || n ==1  || n==2) {
             return n;
         }
+          int [] dp = new int[n+1];
+          dp[1] = 1;
+          dp[2] =2;
+          for(int i=3; i<=n; i++){
+            dp[i] = dp[i-1] + dp[i-2];
+
+          }
+          return dp[n];
         
-        int prev1 = 1;
+       /* int prev1 = 1;
         int prev2 = 2;
 
         int current;
@@ -36,7 +44,7 @@ class Solution {
 
         }
         
-        return prev2;
+        return prev2;*/
         
     }
 }
