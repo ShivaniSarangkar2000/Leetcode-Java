@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0217-contains-duplicate](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0217-contains-duplicate) |
 | [0283-move-zeroes](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0283-move-zeroes) |
+| [0746-min-cost-climbing-stairs](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0746-min-cost-climbing-stairs) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 ## Hash Table
 |  |
@@ -78,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0070-climbing-stairs](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0070-climbing-stairs) |
 | [0509-fibonacci-number](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0509-fibonacci-number) |
+| [0746-min-cost-climbing-stairs](https://github.com/ShivaniSarangkar2000/Leetcode-Java/tree/master/0746-min-cost-climbing-stairs) |
 ## Recursion
 |  |
 | ------- |
