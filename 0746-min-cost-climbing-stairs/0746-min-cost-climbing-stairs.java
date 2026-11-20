@@ -23,9 +23,9 @@ class Solution {
 
         int a = cost[i] + helperRec(cost, i-1, dp);//from top to bottom
         int b = cost[i] + helperRec(cost, i-2, dp);
-        dp[i] = Math.min(a, b);
+      return  dp[i] = Math.min(a, b);
 
-        return dp[i];
+      //  return dp[i];
 
 
     }
