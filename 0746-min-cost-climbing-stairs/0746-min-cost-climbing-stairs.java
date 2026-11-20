@@ -9,13 +9,13 @@ class Solution {
         int b = helperRec(cost, i+2) + cost[i];*/
 
         //base cases
-       if(i==0) return cost[0];
-       if(i==1) return cost[1];
+      // if(i==0) return cost[0];
+      // if(i==1) return cost[1];
 
-        //base cases
-       // if(i==0 || i==1){
-//return cost[i];
-//}
+       //base cases
+          if (i == 0 || i == 1) {
+            return cost[i];
+        }
 
         if(dp[i] != -1){
            return dp[i];
@@ -23,7 +23,10 @@ class Solution {
 
         int a = cost[i] + helperRec(cost, i-1, dp);//from top to bottom
         int b = cost[i] + helperRec(cost, i-2, dp);
-         return dp[i] = Math.min(a,b);
+        dp[i] = Math.min(a, b);
+
+        return dp[i];
+
 
     }
 
@@ -36,9 +39,9 @@ class Solution {
         //2.Recursion from top to 0 , 
        // return Math.min(helperRec(cost, n-1),helperRec(cost,n-2));
 
-       //3. Memoization with top down
+       //3.Recursion + Memoization = top down DP
        int n = cost.length;
-       int[] dp = new int[n+1];
+       int[] dp = new int[n];
        Arrays.fill(dp, -1);
        return Math.min(helperRec(cost, n-1, dp), helperRec(cost, n-2,dp));
 
