@@ -41,7 +41,7 @@ class Solution {
 
        //3.Recursion + Memoization = top down DP
        int n = cost.length;
-       int[] dp = new int[n];
+       int[] dp = new int[n+1];
        Arrays.fill(dp, -1);
        return Math.min(helperRec(cost, n-1, dp), helperRec(cost, n-2,dp));
 
