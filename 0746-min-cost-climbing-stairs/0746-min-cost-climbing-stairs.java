@@ -66,7 +66,7 @@ class Solution {
        //4.Tabulation = Bottom up DP
        int n = cost.length;
        int[] dp = new int[n+1];
-       Arrays.fill(dp, -1);
+//Arrays.fill(dp, -1);
        dp[0] = cost[0];
        dp[1] = cost[1];
 
